@@ -29,7 +29,7 @@ public class TriangleClassifier {
 		
 		if(type == 2 && a + c > b)
 			return 2;
-		if (type == 3  && b+c > a)
+		if (type == 3  || b+c > a)
 			return 2 ;
 		
 		return 0;
